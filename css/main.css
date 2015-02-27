@@ -21,6 +21,7 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
+    height: 100%;
 }
 
 /*
@@ -94,14 +95,44 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Hopipola's custom styles
    ========================================================================== */
 
+body {
+  text-align: center;
+  color: #ccc;
+  background-color: #4c5b69;
+  /*background-image: url(../img/binding-dark.png);
+  background-image: url(../img/black-paper.png);
+  background-image: url(../img/concrete-wall.png);
+  background-image: url(../img/crissxcross.png);*/
+  background-image: url(../img/dark-stripes.png);/*
+  background-image: url(../img/low-contrast-linen.png);
+  background-image: url(../img/otis-redding.png);
+  background-image: url(../img/rough-cloth-light.png);*/
+}
 
+.title {
+  text-indent: -9999px;
+  height: 250px;
+  background: url('../img/hopipola.svg') center center transparent no-repeat;
+}
 
+ul.links {
+  list-style: none;
+  margin: 2em 0 0 0;
+  padding: 0;
+}
 
+ul.links > li {
+  display: inline-block;
+  margin: 0 1.4em;
+}
 
-
+ul.links > li > a {
+  color: #ccc;
+  text-decoration: none;
+}
 
 
 
