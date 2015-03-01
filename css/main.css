@@ -99,6 +99,8 @@ textarea {
    ========================================================================== */
 
 body {
+  font-family: museo, helvetica, arial, sans-serif;
+  font-weight: 300;
   text-align: center;
   color: #ccc;
   background-color: #4c5b69;
@@ -116,6 +118,20 @@ body {
   text-indent: -9999px;
   height: 250px;
   background: url('../img/hopipola.svg') center center transparent no-repeat;
+  margin-top: 50px;
+}
+
+.tagline {
+  font-size: 2em;
+}
+
+@media (max-width: 530px) {
+  .title {
+    height: 180px;
+  }
+  .tagline {
+    font-size: 1.4em;
+  }
 }
 
 ul.links {
@@ -133,15 +149,9 @@ ul.links > li > a {
   color: #ccc;
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
+ul.links > li > a:hover {
+  text-decoration: underline;
+}
 
 
 /* ==========================================================================
