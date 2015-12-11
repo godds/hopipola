@@ -102,8 +102,8 @@ body {
   font-family: museo, helvetica, arial, sans-serif;
   font-weight: 300;
   text-align: center;
-  color: #ccc;
-  background-color: #4c5b69;
+  color: #D1AD54;
+  background-color: #24264E;
   /*background-image: url(../img/binding-dark.png);
   background-image: url(../img/black-paper.png);
   background-image: url(../img/concrete-wall.png);
@@ -146,7 +146,7 @@ ul.links > li {
 }
 
 ul.links > li > a {
-  color: #ccc;
+  color: #D1AD54;
   text-decoration: none;
 }
 ul.links > li > a:hover {
