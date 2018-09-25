@@ -102,16 +102,8 @@ body {
   font-family: museo, helvetica, arial, sans-serif;
   font-weight: 300;
   text-align: center;
-  color: #D1AD54;
-  background-color: #24264E;
-  /*background-image: url(../img/binding-dark.png);
-  background-image: url(../img/black-paper.png);
-  background-image: url(../img/concrete-wall.png);
-  background-image: url(../img/crissxcross.png);*/
-  background-image: url(../img/dark-stripes.png);/*
-  background-image: url(../img/low-contrast-linen.png);
-  background-image: url(../img/otis-redding.png);
-  background-image: url(../img/rough-cloth-light.png);*/
+  color: #24264E;
+  background-color: #ffffff;
 }
 
 .title {
@@ -146,7 +138,7 @@ ul.links > li {
 }
 
 ul.links > li > a {
-  color: #D1AD54;
+  color: #24264E;
   text-decoration: none;
 }
 ul.links > li > a:hover {
